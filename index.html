@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e8fbbc160.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo.PNG" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#life">Life</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Freelancer</p>
+            <h1>Hi, I'm <span><em><font color="#fc4c4e">Talissa Izam</font color></em></span><br> from Kuala Lumpur, MY</h1>
+        </div>
+    </div>
+ </div>  
+ <!------------about-------------->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/about me.PNG">
+                </div>   
+                <div class="about-col-2">
+                    <h1 class="sub-title"><symbol>&#10031;About Me<symbol>&#10031;</h1>
+                    <p><font color="#fdefb2"><i><font face="Times">A 2002 Kuala Lumpur citizen whose birthday is March 17th. A young lady with boundless optimism and an insatiable desire for adventure who wishes she could see more of the globe than she does The phrase "Rise up and above, leave negativity below" is her personal motto. She is a science nerd who ironically learning in computer programming and financial analysis. An introvert with the ability to put on a public front. Enjoys painting, has good taste in clothing, and uses cosmetics. Used to be a part-time actress in Hauntu, ironically discovering that she loves theater acting. Nut intolerance. Supports diversity and acceptance by taking a stand for equality.</font></i></font color></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('EXPERIENCES')">EXPERIENCES</p>
+                        <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                    </div>
+                <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li><span>Web Development</span><br>Web Design Development</li>
+                            <li><span>Microsoft Tech-savvy</span><br>Very familiar with Microsoft Words,Powerpoint,Excel</li>
+                            <li><span>English Language Proficiency</span><br>Well-conversed during presentation</li>
+                        </ul>
+                    </div>
+                <div class="tab-contents" id="EXPERIENCES">
+                        <ul>
+                            <li><span>October 2021-September 2022</span><br>HauntU Ghostmasters/Part-time Actress at HauntU@The Linc,KL</li>
+                            <li><span>June 2021-August 2021</span><br>Volunteer Pusat Pemberian Vaksin KLCC at Petronas Sdn Bhd,KLCC</li>
+                            <li><span>June 2018-December 2018</span><br>Stockist/Promoter at Jamu Mutyara,KL</li>
+                        </ul>
+                    </div> 
+                <div class="tab-contents" id="EDUCATION">
+                        <ul>
+                            <li><span>2020-2023</span><br>UiTM Cawangan Negeri Sembilan Kampus Rembau, N9</li>
+                            <li><span>2015-2019</span><br>SMK Seksyen 5 Wangsa Maju(SVIAN),KL</li>
+                            <li><span>2013-2014</span><br>Sekolah Kebangsaan Setiawangsa(SKS), KL</li>
+                            <li><span>2008-2012</span><br>Seri Omega Private and International School, Senai, Johor</li>
+                            <li><span>2006-2007</span><br>Kindergarten BJ Kindeeland, Skudai, Johor</li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><symbol>&#9966;My Services<symbol>&#9966;</h1>
+        <div class="services-list" >
+
+            <div>
+                <i class="fa-sharp fa-solid fa-file-code"></i>
+                <h2>Web Development</h2>
+                <p><font color="#3e8360">Produces imaginative website designs</font></p>
+                <a href="https://www.w3schools.com/html/default.asp">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-windows"></i>
+                <h2>Microsoft<br>Tech-savvy</h2>
+                <p><font color="#3e8360">Experienced in corporate administration</font></p>
+                <a href="https://www.azmigroup.com.my/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-language"></i>
+                <h2>Language Proficiency</h2>
+                <p><font color="#3e8360">Primarily English-language advertising</font></p>
+                <a href="https://www.britishcouncil.my/english-courses">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-masks-theater"></i>
+                <h2>Theatre<br>Act</h2>
+                <p><font color="#3e8360">Trained and Experienced in the Theatrical Arts</font></p>
+                <a href="https://ihauntu.com/">Learn more</a>
+            </div>
+        </div>  
+    </div>
+</div>
+ <!--------------------life---------------> 
+ <div id="life">
+    <div class="container">
+        <h1 class="sub-title">My Life</h1>
+        <div class="life-list">
+            <div class="life">
+                <img src="image/green desk.JPG">
+                <div class="layer">
+                    <h3>-Social Media Manager-</h3>
+                    <p>At Azmi & Co Real Estate Management Sdn Bhd, I work as my fiance's P.A and a social media manager.</p>
+                        <a>1</a>
+                </div>
+            </div>
+            <div class="life">
+                <img src="image/green book.JPG">
+                <div class="layer">
+                <h3>-Information Management-</h3>
+                <p>Continuing my education with an eye towards a career in corporate affairs, systems, and data analysis.</p>
+                    <a>2</a>
+            </div>
+        </div>
+            <div class="life">
+            <img src="image/green fashion.JPG">
+            <div class="layer">
+                <h3>-Lifestyle-</h3>
+                <p>I have a great committed relationship, love dressing up, work hard, and have solid convictions.</p>
+                    <a>3</a>
+                </div>
+            </div>
+        </div>
+        
+
+<!-------------------------------live----------------------------->
+<div id="live">
+    <div class="container">
+        <div class="row"> 
+            <h1 class="sub-title">Where I Live<i class="fa-sharp fa-solid fa-house"></i></h1>
+                <div class="span">
+                    <h2><a name="sub heading">MY HOUSE ADDRESS:</a></h2>
+                    <p><br> No.35 Jalan Wangsamas 2,<br>Bukit Wangsamas, <br>53300 Kuala Lumpur, <br> WP Kuala Lumpur.</p> 
+                   
+                <img src="image/I'm right here!.png" usemap="#image-map" class="center">
+
+                <map name="image-map">
+                    <area target="" alt="Bukit Wangsamas" title="Bukit Wangsamas" href="https://goo.gl/maps/7kGLSiSzxVJ5Jw8r8" coords="538,344,322" shape="circle">
+                </map>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+<!----------------------contact------------------------------>    
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me<i class="fa-solid fa-phone"></i></h1>
+                
+                <p><i class="fa-solid fa-paper-plane"></i>talissaizam@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>019-6500317</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/talissaizam"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/talissaizam"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://t.snapchat.com/BpSMybbu"><i class="fa-brands fa-snapchat"></i></a>
+                </div>
+            
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>  
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+           
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+ 
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+    
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyohcj4UZ4zgbnwxMOguic2WNdKuKAQfCAcfMU7sz7TohkFcQJiakK3eJoA68Pnaj3kSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
+    
+<style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #59bd8b;
+      color: white;
+      text-align: center;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+    
+    </style>
+    
+    <div class="footer">
+      <p><p class="copyright"><p>Copyright &#169; Talissa. Made with <font color="#db4343">&#10084;</font-color></p>
+    </div> 
